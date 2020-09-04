@@ -1,0 +1,28 @@
+<mvc:View controllerName="lester.portfolio.controller.App" xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+	xmlns="sap.m" xmlns:core="sap.ui.core">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page">
+					<customHeader>
+						<OverflowToolbar>
+							
+						</OverflowToolbar>	
+					</customHeader>
+					<content>
+						
+					</content>
+					
+					<footer>
+						<OverflowToolbar class="footer">
+							<content>
+								<core:HTML content="&lt;a href=&quot;https://github.com/lester-dsilva/lester-dsilva.github.io&quot;&gt; &lt;img src=&quot;./icons/github-logo.svg&quot;&gt; &lt;/a&gt;"/>
+								<core:HTML content="&lt;a href=&quot;https://www.linkedin.com/in/lester-d-silva-1b96b8145/&quot;&gt; &lt;img src=&quot;./icons/linkedin-logo.svg&quot;&gt; &lt;/a&gt;"/>
+							</content>
+						</OverflowToolbar>		
+					</footer>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>

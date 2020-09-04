@@ -1,0 +1,8 @@
+.footer a img{
+	height:35px;
+	padding:2px;
+	margin:2px;
+}
+.footer a img :hover{
+	height:37px;
+}

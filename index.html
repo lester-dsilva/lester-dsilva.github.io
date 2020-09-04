@@ -1,23 +1,20 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>SAPUI5 Walkthrough</title>
-	<script
-		id="sap-ui-bootstrap"
-		src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
-		data-sap-ui-theme="sap_fiori_3"
-		data-sap-ui-libs="sap.m"
-		data-sap-ui-compatVersion="edge"
-		data-sap-ui-async="true"
-		data-sap-ui-resourceroots='{
-			"sap.ui.demo.walkthrough": "./"
-		}'
-		data-sap-ui-oninit="module:sap/ui/demo/walkthrough/index">
-	</script>
-</head>
-<body>
-<div>Hello World</div>
-
-</body>
+	<head>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>portfolio</title>
+		<script id="sap-ui-bootstrap"
+			src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+			data-sap-ui-theme="sap_belize_plus"
+			data-sap-ui-resourceroots='{"lester.portfolio": "./"}'
+			data-sap-ui-compatVersion="edge"
+			data-sap-ui-oninit="module:sap/ui/core/ComponentSupport"
+			data-sap-ui-async="true"
+			data-sap-ui-frameOptions="trusted">
+		</script>
+	</head>
+	<body class="sapUiBody">
+		<div data-sap-ui-component data-name="lester.portfolio" data-id="container" data-settings='{"id" : "portfolio"}'></div>
+	</body>
 </html>
